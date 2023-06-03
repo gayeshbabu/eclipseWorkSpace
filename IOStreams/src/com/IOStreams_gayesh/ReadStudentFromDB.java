@@ -15,6 +15,7 @@ public class ReadStudentFromDB {
 			Student reference = (Student) ois.readObject();
 			reference.getDetails();
 			System.out.println(reference.toString());
+			System.out.println(reference.toString());
 
 			// Close the streams
 			ois.close();
