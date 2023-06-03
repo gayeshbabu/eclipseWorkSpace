@@ -8,7 +8,7 @@ public class ReadStudentFromDB {
 	public static void main(String[] args) {
 		try {
 			// Open FileInputStream and ObjectInputStream
-			FileInputStream fis = new FileInputStream("studentDB.ser");
+			FileInputStream fis = new FileInputStream("studentDB.serr");
 			ObjectInputStream ois = new ObjectInputStream(fis);
 
 			// Read the Student object from the file
